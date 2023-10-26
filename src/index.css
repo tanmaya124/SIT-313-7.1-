@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica', Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #555;
+}
+
+pre {
+  font-family: 'Monaco', 'Courier New', monospace;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border: 2px solid #ccc;
+  margin: 20px 0;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+.Top_Box {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.Heading {
+  font-size: 26px;
+  font-weight: bold;
+  color: #444;
+}
+
+.Option_Selection {
+  margin: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0074cc;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Article_Border,
+.Question_Border {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.Text_Adding,
+.QuestionButton_Heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #444;
+}
+
+.Tags {
+  margin-top: 10px;
+}
+
+#text {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

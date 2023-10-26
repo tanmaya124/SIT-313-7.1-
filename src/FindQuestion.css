@@ -1,0 +1,74 @@
+.card {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.filter {
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.filter h5 {
+    margin: 5px 0;
+}
+
+.newQuestion {
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.addNewQuestionHearder h1 {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+
+.newQuestion h5 {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #86acd5;
+}
+
+button:active {
+    background-color: #82a7cb;
+    transform: translateY(2px);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #2980b9;
+    background-color: #f0f8ff;
+}

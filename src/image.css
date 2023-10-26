@@ -1,0 +1,46 @@
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label.file-input-label {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    transition: background-color 0.3s ease;
+}
+
+label.file-input-label:hover {
+    background-color: #0f62c2;
+}
+
+button.submit-button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    transition: background-color 0.3s ease;
+}
+
+button.submit-button:hover {
+    background-color: #449d44;
+}

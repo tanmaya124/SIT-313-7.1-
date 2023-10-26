@@ -1,0 +1,96 @@
+/* Header styles */
+.articleHeader h2 {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Title styles */
+.title {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.title label {
+  margin: 5px 0;
+}
+
+.title input {
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Abstract styles */
+.Abstract label {
+  display: block;
+  margin: 10px 0;
+}
+
+.Abstract input {
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+/* Article styles */
+.Article label {
+  margin: 10px 0;
+  display: block;
+}
+
+.Article textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+.Article input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+/* Tag styles */
+.Tag label {
+  display: block;
+  margin: 10px 0;
+}
+
+.Tag input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+/* Button styles */
+.Button {
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+  background-color: #76c78f;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.Button:hover {
+  background-color: #d08e87;
+}
